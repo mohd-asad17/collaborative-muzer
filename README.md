@@ -47,3 +47,37 @@ Instead of one person controlling the playlist, everyone in the room gets a voic
 * **Next.js** – App Router & Server Components
 * **Tailwind CSS** – Utility-first styling
 * **TypeScript** – Type safety
+
+### Backend
+* **Next.js** API Routes
+* **WebSockets** – Real-time voting & queue sync
+
+### Database
+* **PostgreSQL**
+* **Prisma ORM** – Type-safe database access
+
+## 📦 Installation & Setup
+
+1. Clone the Repository
+```bash
+git clone https://github.com/your-username/collaborative-music-player.git
+cd collaborative-music-player
+```
+2. Install Dependencies
+```
+npm install 
+```
+3. Setup Environment Variables
+```
+cp .env.example .env
+```
+4. Setup Database
+```
+npx prisma generate
+npx prisma migrate dev
+```
+5. Run the app
+```
+npm run dev
+```
+
